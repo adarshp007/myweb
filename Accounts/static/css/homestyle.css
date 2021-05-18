@@ -1,0 +1,18 @@
+*{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.form-inline .nav-item .form-control{
+    background: none;
+    color: white;
+}
+.form-inline .nav-item .btn {
+height:36px ;
+    min-width:80px;
+    max-width: 100%;
+
+}
+label{
+    color: #d9fff5;
+}
