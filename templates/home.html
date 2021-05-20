@@ -79,13 +79,13 @@
         </div>
 
     <div class="row">
-        <div class="col-md-2 col-sm-2 col-xs-2 vh-100 bg-dark " ><div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2  bg-dark " style="height: 737px;"><div class="row">
             <nav class="navbar  bg-dark w-100 ">
-                <ul class="navbar-nav flex-column ">
-                    <li class="nav-item "><a href="{% url 'content' %}" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a class="nav-link">About</a></li>
-                    <li class="nav-item"><a class="nav-link">Product</a></li>
-                    <li class="nav-item"><a class="nav-link">Contact</a></li>
+                <ul class="navbar-nav flex-column   w-100" >
+                    <li class="nav-item m-auto" ><a href="{% url 'content' %}" class="nav-link" >Home</a></li>
+                    <li class="nav-item m-auto"><a class="nav-link">About</a></li>
+                    <li class="nav-item m-auto"><a class="nav-link">Product</a></li>
+                    <li class="nav-item m-auto"><a class="nav-link">Contact</a></li>
 
                 </ul>
             </nav>
@@ -93,17 +93,17 @@
         </div>
         <div class="col-md-10 col-sm-10 col-xs-10">
             <div class="row">
-        <div class="col-md-10 col-sm-10 col-xs-10" style="background-color: yellow ;height: 600px;">content
+        <div class="col-md-10 col-sm-10 col-xs-10" style="height: 600px;">{# content #}
         {% block body %}
             {% endblock %}
         </div>
 
 
 
-        <div class="col-md-2 col-sm-2 col-xs-2" style="background-color: blueviolet;height: 600px;">add</div>
+        <div class="col-md-2 col-sm-2 col-xs-2 bg-dark" style="height: 600px;">{# add #}</div>
             </div>
             <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 "style="background-color:coral;height: 137px;" >Footer</div>
+                <div class="col-md-12 col-sm-12 col-xs-12 bg-dark"style="height: 137px;" >{# footer #}</div>
             </div>
             </div>
     </div>
